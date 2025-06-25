@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador Catabático – MVP</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #272643;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+    }
+    .edificio {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 2rem;
+    }
+    .unidad {
+      background-color: #dcedc8;
+      border: 2px solid #a5d6a7;
+      padding: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .unidad.critica {
+      background-color: #ffcdd2;
+      border-color: #e57373;
+    }
+    .unidad.alerta {
+      background-color: #fff9c4;
+      border-color: #fff176;
+    }
+    .info {
+      margin-top: 1rem;
+    }
+    .guion {
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      padding: 1.5rem;
+      margin: 2rem;
+      border-radius: 8px;
+    }
+    .guion h2 {
+      color: #272643;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simulador Catabático – Nodo Mitre 1129/35</h1>
+    <p>Visualización inicial de mantenimiento y conflicto estructural</p>
+  </header>
+
+  <section>
+    <h2>Visualización Edilicia</h2>
+    <div class="edificio">
+      <div class="unidad critica">6° G<br/>Filtración grave</div>
+      <div class="unidad">6° F</div>
+      <div class="unidad">6° E</div>
+      <div class="unidad alerta">Garage<br/>Fisura estructural</div>
+      <div class="unidad">PB A</div>
+      <div class="unidad">PB B</div>
+    </div>
+    <div class="info">
+      <strong>Estado general:</strong>
+      <ul>
+        <li><span style="color: #d32f2f;">Rojo:</span> Reparación urgente</li>
+        <li><span style="color: #fbc02d;">Amarillo:</span> Supervisión técnica activa</li>
+        <li><span style="color: #388e3c;">Verde:</span> Área estable</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Simulación Jurídica (Conflicto Mitre 1117)</h2>
+    <p><strong>Escenario:</strong> Construcción lindera afecta medianera – daños verificados.</p>
+    <ul>
+      <li><strong>Denuncia AGC:</strong> 00126124/24 (válida)</li>
+      <li><strong>Asamblea:</strong> Resolución de iniciar acciones legales – 5 de julio 2024</li>
+      <li><strong>Propuesta:</strong> Peritaje certificado + intimación art. 2078 CCC</li>
+    </ul>
+    <p><em>Simulador recomienda:</em> avanzar con estrategia legal coordinada – riesgo estructural latente.</p>
+  </section>
+
+  <section class="guion">
+    <h2>Guion de Presentación para Asamblea</h2>
+    <p><strong>Buenos días a todos y todas.</strong></p>
+    <p>Como parte del orden del día, presentamos una <strong>primera versión funcional del Simulador Catabático</strong>, una herramienta digital pensada para ayudarnos a <strong>planificar el mantenimiento edilicio</strong> y gestionar de manera colectiva el conflicto jurídico que enfrentamos por la obra lindera en Mitre 1117.</p>
+    <p>Este simulador parte de una lógica distinta: no busca centralizar decisiones ni imponer soluciones externas, sino fortalecer nuestra <strong>capacidad local de organización, diagnóstico y respuesta adaptativa</strong>.</p>
+    <h3>1. Mantenimiento proyectivo</h3>
+    <p>En la pantalla podemos ver una <strong>representación esquemática del edificio</strong>, con foco en las unidades más comprometidas:</p>
+    <ul>
+      <li><strong>Unidad 6° G:</strong> filtraciones graves en techo (zona roja).</li>
+      <li><strong>Garage:</strong> desprendimiento de revestimiento de columnas (zona amarilla en alerta).</li>
+    </ul>
+    <p>La idea es que cada vecina o vecino pueda en el futuro <strong>registrar incidentes</strong>, <strong>visualizar su estado</strong>, y que colectivamente podamos <strong>simular escenarios de reparación</strong>, costos aproximados y prioridad de intervención.</p>
+    <h3>2. Conflicto jurídico con la obra lindera</h3>
+    <p>Como consta en el <strong>acta del 5 de julio de 2024</strong>, se resolvió:</p>
+    <ul>
+      <li>Intimar mediante carta documento a los responsables de la obra para que, en un plazo de 30 días, presenten un informe técnico sobre el impacto que están generando.</li>
+      <li>En caso de no cumplimiento, contratar un perito independiente a costo del consorcio.</li>
+    </ul>
+    <p>En el simulador, esta situación se traduce en una <strong>línea de tiempo jurídica</strong>, donde podemos ver el estado actual del conflicto, los pasos posibles y los tiempos estimados para cada decisión.</p>
+    <h3>Cierre</h3>
+    <p>Proponemos que esta asamblea apruebe:</p>
+    <ol>
+      <li><strong>La constitución del consorcio Mitre 1129/35 como nodo piloto del Simulador Catabático.</strong></li>
+      <li><strong>La continuidad del desarrollo de sus módulos con participación abierta.</strong></li>
+      <li><strong>El uso del simulador como herramienta complementaria para la próxima etapa de intervención legal y técnica.</strong></li>
+    </ol>
+    <p><strong>Muchas gracias.</strong></p>
+  </section>
+</body>
+</html>
